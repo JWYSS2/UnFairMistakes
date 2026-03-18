@@ -1,14 +1,16 @@
 # UnFairMistakes
 Code Used for "(Un)fair Mistakes on Social Media: How Demographic Characteristics Influence Authorship Attribution"
 
-The code is split into pultiple .py files
+The code is split into multiple .py files
 
 The code used for collecting the dataset is in the following files:
-- pipeline.py
+- **pipeline.py**
+  
   The code in this file is used to construct the dataset
+  
   This file contains the following functions:
+  
     **get_reddit_thread_ids_from_wayback** A function that accesses the wayback API and searches for all saved reddit frontpages of a subreddit of interest in a given timeframe. It saves the different thread_ids displayed on those pages in a csv file
-
 
     **reduce_threads_file** A function that takes the csvfile resulting from calling **get_reddit_thread_ids_from_wayback** and reduces it to contain only discussions where the title is in a language of interst
 
