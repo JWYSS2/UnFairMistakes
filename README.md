@@ -30,3 +30,8 @@ The code used to **clean the data and prepare it** for the experiments is in the
 
 - **PolyglotTest.ipynb** This jupyter Notebook was used to run polgylot. 
 
+
+
+The code used for additional analysis
+
+- cosinedistance.py Code used to compare the cosine distance between training and testing data.
