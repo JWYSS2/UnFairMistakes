@@ -28,5 +28,5 @@ The code used to **clean the data and prepare it** for the experiments is in the
 
 - **pretreatment.py** This file contains all functions necessary to clean the data as well as doing a time aware train-test split
 
-- **PolyglotTest** This jupyter Notebook was used to run polgylot. 
+- **PolyglotTest.ipynb** This jupyter Notebook was used to run polgylot. 
 
