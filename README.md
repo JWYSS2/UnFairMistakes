@@ -3,7 +3,8 @@ Code Used for "(Un)fair Mistakes on Social Media: How Demographic Characteristic
 
 The code is split into multiple .py files
 
-The code used for collecting the dataset is in the following files:
+The code used for **collecting the dataset** is in the following files:
+
 - **pipeline.py**
   
   The code in this file is used to construct the dataset
@@ -22,4 +23,8 @@ The code used for collecting the dataset is in the following files:
 
     This file contains the helper code to access the reddit api. It also contain the instructions on how to get reddit api credentials.
   
-     
+
+The code used to **clean the data and prepare it** for the experiments is in the following files:
+
+-
+
