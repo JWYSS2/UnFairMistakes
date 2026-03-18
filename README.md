@@ -18,4 +18,8 @@ The code used for collecting the dataset is in the following files:
 
     **get_post_histories** A function that collects the entire accessible post history of a user.
   
+- **reddit_API_caller.py**
+
+    This file contains the helper code to access the reddit api. It also contain the instructions on how to get reddit api credentials.
+  
      
