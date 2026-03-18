@@ -30,6 +30,11 @@ The code used to **clean the data and prepare it** for the experiments is in the
 
 - **PolyglotTest.ipynb** This jupyter Notebook was used to run polgylot. 
 
+The code used to extract features from the data
+
+- new_feature_function.py Contains all feature functions used in the experiments
+
+
 
 
 The code used for additional analysis
