@@ -32,7 +32,7 @@ The code used to **clean the data and prepare it** for the experiments is in the
 
 The code used to extract features from the data
 
-- new_feature_function.py Contains all feature functions used in the experiments
+- **new_feature_function.py** Contains all feature functions used in the experiments
 
 
 
