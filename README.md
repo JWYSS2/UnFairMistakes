@@ -26,5 +26,5 @@ The code used for **collecting the dataset** is in the following files:
 
 The code used to **clean the data and prepare it** for the experiments is in the following files:
 
--
+- **pretreatment.py** This file contains all functions necessary to clean the data as well as doing a time aware train-test split
 
