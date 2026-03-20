@@ -1,3 +1,66 @@
+#Library imports
+import shutil
+import os
+import re
+import pandas as pd
+import string
+from iteration_utilities import intersperse
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn.feature_extraction.text import TfidfVectorizer
+# General
+import pandas as pd
+import random
+from tqdm import tqdm
+# Feature extraction approach
+from sklearn.preprocessing import scale
+import nltk
+from sklearn.svm import SVC
+from sklearn.linear_model import LogisticRegression
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.metrics import accuracy_score, classification_report
+from sklearn.linear_model import LogisticRegression
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import accuracy_score, classification_report
+from sklearn.metrics import accuracy_score
+from sklearn.metrics import f1_score
+#from feature_extraction import *
+#from pretreatment import *
+from sklearn.preprocessing import LabelEncoder
+from sklearn.metrics import accuracy_score
+from sklearn.metrics import f1_score
+import xgboost as xgb
+import warnings
+warnings.filterwarnings("ignore")
+import numpy
+all_langs = ['de','en', 'es', 'fr', 'it', 'pt', 'nl']
+import os
+import re
+import numpy
+import pandas as pd
+import string
+from iteration_utilities import intersperse
+from nltk.tokenize import word_tokenize
+from nltk.tokenize import sent_tokenize
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
+import statistics
+import spacy
+# spacy.cli.download('de_core_news_sm')
+spacy.cli.download("en_core_web_sm")
+from collections import Counter
+import multiprocessing
+
+
 def vary_classifier_and_features_version_combined_unchunked(dir_with_data='Data_for_classification_unchunked', mode='halfhalf', num_authors=8, dir_results='',
                                  list_classifiers=['rf', 'svm', 'xgb'], list_features=[style_features_normalized_new, char_n_grams_normalized_new],
                                  train_size=5000, index_file='index_files/index_file.csv', num_iterations=10,
