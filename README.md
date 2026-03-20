@@ -36,9 +36,11 @@ The code used to extract features from the data
 
 The code used to run the experiments
 
-- **classification.py** This contains the functions used to run the experiments as well as the function used to run the linear regression analysis.
+- **classification.py** This contains the functions used to run the experiments. The function exists in three versions, once for Native Language, One for Gender, One for Age. We put the version for Gender here.
+
+- **linear_regression.py** This file contains the functions used to run the linear regression analysis.
   
-- **probability_analysis.py** This is the functions used to 
+- **probability_analysis.py** This is the functions used to calculate the different statistical analysis.
 
 
 The code used for additional analysis
