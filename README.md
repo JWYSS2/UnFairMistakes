@@ -34,7 +34,11 @@ The code used to extract features from the data
 
 - **new_feature_function.py** Contains all feature functions used in the experiments
 
+The code used to run the experiments
 
+- **classification.py** This contains the functions used to run the experiments as well as the function used to run the linear regression analysis.
+  
+- **probability_analysis.py** This is the functions used to 
 
 
 The code used for additional analysis
