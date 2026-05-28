@@ -1,5 +1,6 @@
 # UnFairMistakes
 Code Used for "(Un)fair Mistakes on Social Media: How Demographic Characteristics Influence Authorship Attribution"
+The published version of the paper: https://ojs.aaai.org/index.php/ICWSM/article/view/42763/50323
 The arxiv version of the paper can be found here: https://arxiv.org/pdf/2510.19708
 
 The code is split into multiple .py files
